@@ -5,4 +5,4 @@ set -o pipefail
 
 . ~/.nvm/nvm.sh
 pwd
-node ./index.js
+node /var/www/html/lol/index.js
