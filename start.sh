@@ -5,4 +5,4 @@ set -o pipefail
 
 . ~/.nvm/nvm.sh
 pwd
-node /var/www/html/lol/index.js
+pm2 start /var/www/html/lol/index.js
